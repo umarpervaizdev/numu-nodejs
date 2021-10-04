@@ -14,10 +14,10 @@
 
 ## API Urls
 
-> http://localhost:4000/users (GET)
-> http://localhost:4000/users/add (POST) {body: name}
-> http://localhost:4000/users/delete (POST) {body: id}
+* http://localhost:4000/users (GET)
+* http://localhost:4000/users/add (POST) {body: name}
+* http://localhost:4000/users/delete (POST) {body: id}
 
-> http://localhost:4000/hobbies (GET) {params: id}
-> http://localhost:4000/hobbies/add (POST) {body: name, passion, year, userId}
-> http://localhost:4000/hobbies/delete (POST) {body: id}
+* http://localhost:4000/hobbies (GET) {params: id}
+* http://localhost:4000/hobbies/add (POST) {body: name, passion, year, userId}
+* http://localhost:4000/hobbies/delete (POST) {body: id}
